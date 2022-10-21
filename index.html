@@ -9,16 +9,53 @@
 </head>
 
 <body>
+    <audio autoplay
+        loop
+        control>
+        <source src="bgm.mp3">
+    </audio>
+
     <center>
         <br><br><br><br>
-        <h2><b>yude のホームページ</b></h2>
+        <img src="logo.png"
+            width=400>
+        <br>
+        <i>Sorry, this page is Japanese only.</i>
+        <br>
         <br>
         <!-- FC2カウンター ここから -->
         <script src="//counter1.fc2.com/counter.php?id=27630758&main=1"></script><noscript><img
                 src="//counter1.fc2.com/counter_img.php?id=27630758&main=1" /></noscript>
         <!-- FC2カウンター ここまで -->
+        <br>キリ番踏み逃げ禁止！踏んだら <a href="#"
+            onClick="javascript:bbs_alert()">BBS</a> へ<br><br>
+
+        <hr>
+        <div style="padding: 5px 10px; 
+color: #ffffff; background: #ffc0cb; 
+border-radius: 10px 10px 0 0;">★ yude について ★</div>
+
+        <div style="padding: 10px; 
+border: 1px solid #ffc0cb; 
+background: #ffffff; 
+border-radius: 0 0 10px 10px;"
+            align="left">
+            <ul>
+                <li>生年月日: 2001 年 11 月 19 日</li>
+                <li>電子メール: <a href="mailto:i@yude.jp">i★yude.jp</a> (★ をアットマークに)</li>
+            </ul>
+        </div>
+        <hr>
+        This page is licensed under the MIT License.<br>
+        The logo is provided by <a href="https://www.makewordart.com">Make WordArt</a>.<br>
+        The BGM is provided by <a href="https://github.com/MubertAI/Mubert-Text-to-Music">Mubert-Text-to-Music</a>.<br>
 
     </center>
+    <script>
+        function bbs_alert() {
+            alert("そんなのないよ笑")
+        }
+    </script>
 </body>
 
 </html>
